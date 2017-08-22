@@ -50,15 +50,6 @@ platform :ios do
   lane :adhoc do
     gym(export_method:"ad-hoc",
         output_directory:"./ad-hoc")
-    slack(message: "Successfully distributed a new beta build")
-  end
-
-  lane :app-store do
-    gym(export_method:"app-store",
-        output_directory:"./app-store")
-
-    deliver
-    slack(message: "Successfully distributed a new beta build")
   end
 
   # You can define as many lanes as you want
