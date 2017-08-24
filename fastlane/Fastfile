@@ -51,6 +51,7 @@ platform :ios do
     cocoapods
     scan
     gym(scheme: "ImageToGif",
+        workspace: "ImageToGif.xcworkspace",
         export_method:"ad-hoc",
         output_directory:"./ad-hoc")
   end
