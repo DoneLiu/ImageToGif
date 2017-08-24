@@ -50,7 +50,7 @@ platform :ios do
   lane :adhoc do
     cocoapods
     scan
-    gym(scheme:"",
+    gym(scheme:"ImageToGif",
         export_method:"ad-hoc",
         output_directory:"./ad-hoc")
   end
