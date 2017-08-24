@@ -50,7 +50,8 @@ platform :ios do
   lane :adhoc do
     cocoapods
     scan
-    gym(export_method:"ad-hoc",
+    gym(scheme:"",
+        export_method:"ad-hoc",
         output_directory:"./ad-hoc")
   end
 
