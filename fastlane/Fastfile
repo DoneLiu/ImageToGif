@@ -49,7 +49,6 @@ platform :ios do
 
   lane :adhoc do
     cocoapods
-    scan
     gym(scheme: "ImageToGif",
         workspace: "ImageToGif.xcworkspace",
         export_method:"ad-hoc",

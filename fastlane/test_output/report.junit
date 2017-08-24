@@ -1,10 +1,2 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<testsuites name='ImageToGifUITests.xctest' tests='3' failures='0'>
-  <testsuite name='ImageToGifTests' tests='2' failures='0'>
-    <testcase classname='ImageToGifTests' name='testExample' time='0.001'/>
-    <testcase classname='ImageToGifTests' name='testPerformanceExample' time='0.254'/>
-  </testsuite>
-  <testsuite name='ImageToGifUITests' tests='1' failures='0'>
-    <testcase classname='ImageToGifUITests' name='testExample' time='6.325'/>
-  </testsuite>
-</testsuites>
+<testsuites tests='0' failures='0'/>
