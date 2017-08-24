@@ -49,7 +49,7 @@ platform :ios do
 
   lane :adhoc do
     gym(export_method:"ad-hoc",
-        output_directory:"~/Desktop/ad-hoc")
+        output_directory:"./ad-hoc")
   end
 
   # You can define as many lanes as you want
